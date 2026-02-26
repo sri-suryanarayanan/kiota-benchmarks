@@ -1,0 +1,15 @@
+<Project>
+    <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageVersion Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.0" />
+        <PackageVersion Include="BenchmarkDotNet" Version="0.15.8" />
+        <!--<PackageVersion Include="Aveva.Platform.EntityMgmt.Client" Version="0.849.7098396" />-->
+
+        <PackageVersion Include="Microsoft.Kiota.Http.HttpClientLibrary" Version="1.21.2" />
+        <PackageVersion Include="Microsoft.Kiota.Serialization.Json" Version="1.21.2" />
+        <PackageVersion Include="Microsoft.Kiota.Abstractions" Version="1.21.2" />
+        <PackageVersion Include="Microsoft.IO.RecyclableMemoryStream" Version="3.0.1" />
+    </ItemGroup>
+</Project>
